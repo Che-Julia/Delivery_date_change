@@ -18,7 +18,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class CardDeliveryTest {
     @BeforeEach
     void setup() {
-        open("http://0.0.0.0:9999");
+        open("http://localhost:9999/");
     }
 
     @Test
